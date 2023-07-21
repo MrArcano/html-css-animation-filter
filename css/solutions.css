@@ -85,9 +85,21 @@
 }
 
 .ex-9-img:hover{
-  filter: grayscale(50%) sepia(50%) blur(0.5px);
+  filter: grayscale(50%) sepia(50%);
   border-radius: 30px;
   scale: 1.5;
 }
 /* -------------------------------------------- */
+
+/* EX 10 */
+@keyframes move-ex-10{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.ex-10-icon{
+  animation: move-ex-10 1s linear infinite reverse;
+}
+/* -------------------------------------------- */
+
 
