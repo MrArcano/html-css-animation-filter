@@ -140,24 +140,31 @@
 /* EX 13 */
 @keyframes move-ex-13-top{
   0% {transform: translate(0,0);}
-  20% {transform: translate(130px,0);}
-  40% {transform: translate(130px,70px);}
-  60% {transform: translate(-30px,70px);}
-  80% {transform: translate(-30px,0);}
+  20% {transform: translate(150px,0);}
+  40% {transform: translate(150px,65px);}
+  60% {transform: translate(-50px,65px);}
+  80% {transform: translate(-50px,0);}
   100% {transform: translate(0,0);}
 }
 
 @keyframes move-ex-13-bot{
   0% {transform: translate(0,0);}
-  50% {transform: translate(-150%,0);}
+  20% {transform: translate(-130px,0);}
+  40% {transform: translate(-130px,-65px);}
+  60% {transform: translate(70px,-65px);}
+  80% {transform: translate(70px,0);}
   100% {transform: translate(0,0);}
 }
 
 .ex-13-button:hover .ex-13-top-white{
-  animation: move-ex-13-top 4s linear;
+  animation: move-ex-13-top 2s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
   animation: move-ex-13-bot 2s linear;
 }
 /* -------------------------------------------- */
+
+.debug *{
+  border: 1px solid green;
+}
