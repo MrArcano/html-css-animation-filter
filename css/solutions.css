@@ -116,14 +116,23 @@
 /* -------------------------------------------- */
 
 /* EX 12 */
-@keyframes move-ex-12{
+@keyframes move-ex-12-top{
   0% {transform: translate(0,0);}
-  50% {transform: translate(150%,0);}
+  50% {transform: translate(180%,0);}
+  100% {transform: translate(0,0);}
+}
+
+@keyframes move-ex-12-bot{
+  0% {transform: translate(0,0);}
+  50% {transform: translate(-150%,0);}
   100% {transform: translate(0,0);}
 }
 
 .ex-12-button:hover .ex-12-top-white{
-  animation: move-ex-12 2s linear;
+  animation: move-ex-12-top 2s linear;
 }
 
-
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: move-ex-12-bot 2s linear;
+}
+/* -------------------------------------------- */
