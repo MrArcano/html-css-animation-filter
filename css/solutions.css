@@ -105,15 +105,13 @@
 
 /* EX 11 */
 @keyframes move-ex-11{
-  0% {transform: rotate(0deg);}
-  25% {}
-  50% {}
-  75% {transform: rotate(300deg);}
-  100% {transform: rotate(0deg);}
+  0% {transform: rotate(0);}
+  90% {transform: rotate(0.75turn);}
+  100% {transform: rotate(0);}
 }
 
 .ex-11-icon:hover{
-  animation: move-ex-11 1s linear;
+  animation: move-ex-11 2s linear;
 }
 /* -------------------------------------------- */
 
